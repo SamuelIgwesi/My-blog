@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 18px;
+	font-family: Times, serif;
+	background-image: url("fruits.png");
+
+}
+h1,h2{
+	font-family: Arial, sans-serif;
+}
+#container{
+	width: 750px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+header{
+	text-align: center;
+	background: white;
+	color: blue;
+	padding: 10px;
+}
+article{
+	background-color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+img{
+	width: 200px;
+	height: 200px;
+}
+article p{
+	margin-bottom: 1em;
+}
+section.post-head small{
+	display: block;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: solid 5px gray;
+	color:  royalblue;
+}
+.post-foot{
+	font-size: 14px;
+	border-top: solid 1px gray;
+	padding-top: 35px;
+}
